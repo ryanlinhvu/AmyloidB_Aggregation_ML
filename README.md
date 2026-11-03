@@ -10,7 +10,7 @@ Hybrid molecular representation and non-linear Stacking Ensemble ML workflow for
 
 ## Overview
 
-**AmyloidB_Aggregation_ML** is a quantitative structure–activity relationship (QSAR) and machine learning pipeline designed to predict the anti-aggregation potency ($\text{pIC}_{50}$ / $\text{IC}_{50}$) of small molecules against Amyloid-$\beta$ ($\text{A}\beta_{42}$) fibrillation (Thioflavin T fluorescence assay). 
+**AmyloidB_Aggregation_ML** is a quantitative structure–activity relationship (QSAR) and machine learning pipeline designed to predict the anti-aggregation potency ($\text{pIC}_{50}$ / $\text{IC}_{50}$) of small molecules against Amyloid-$\beta$ ($\text{A}\beta_{42}$) fibrillation (Thioflavin T fluorescence assay).
 
 The workflow integrates a **hybrid molecular featurization** scheme with a **two-layer StackingRegressor ensemble** and an **Applicability Domain (AD)** reliability assessment, enabling rapid and trustworthy virtual screening of novel multi-target-directed ligands (MTDLs) for Alzheimer's disease.
 
