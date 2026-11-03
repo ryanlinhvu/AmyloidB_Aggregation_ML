@@ -1,8 +1,5 @@
 # AmyloidB_Aggregation_ML
-Hybrid molecular representation and non-linear Stacking Ensemble ML workflow for predicting Aβ42 aggregation inhibitory activity IC50
-# AmyloidB_Aggregation_ML
-
-**A Hybrid Molecular Representation and Non-Linear Stacking Ensemble Framework for Predicting Amyloid-$\beta$ ($\text{A}\beta_{42}$) Aggregation Inhibitors**
+**A Hybrid Molecular Representation and Non-Linear Stacking Ensemble Framework for Predicting Amyloid $\beta$ ($\text{A}\beta_{42}$) Aggregation Inhibitors**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
@@ -21,7 +18,8 @@ The workflow integrates a **hybrid molecular featurization** scheme with a **two
 ### 1. Data Standardization & Preprocessing
 * **SMILES Canonicalization:** Salts and counterions are stripped by retaining the largest molecular fragment, followed by canonical SMILES standardization via `RDKit`.
 * **Activity Capping & Transformation:** Experimental IC₅₀ values (in nM) are capped at 40,000 nM (40 µM) and converted into logarithmic scale:
-  $$\text{pIC}_{50} = 9.0 - \log_{10}(\text{IC}_{50\text{ [nM]}})$$
+
+ $$ \text{pIC}_{50} = 9.0 - \log_{10}(\text{IC}_{50}\text{ [nM]}) $$
 
 ### 2. Hybrid Molecular Featurization
 Each standardized molecule is encoded into a comprehensive hybrid feature vector combining:
